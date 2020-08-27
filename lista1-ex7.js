@@ -2,6 +2,7 @@ chefe();
 function chefe(){
     var vet =[];
     ex7(vet)
+    cauculaM(vet)
 }
 
 function ex7(vet){
@@ -14,4 +15,13 @@ function ex7(vet){
     }
     while(numero >= 0)
 
+}
+
+function cauculaM(){
+    var soma = 0
+    for(var i=0; i < vet.length ; i++){
+        soma = soma =vet[i]
+
+    }
+    console.log('a media é ${soma/vet.length}')
 }
